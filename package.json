@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BardhShabani1/html-starter/issues"
   },
-  "homepage": "https://github.com/BardhShabani1/html-starter#readme"
+  "homepage": "https://github.com/BardhShabani1/html-starter#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }

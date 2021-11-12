@@ -7650,7 +7650,7 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-secondary {
+.bg-secondary, main.login {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
 }
@@ -11117,6 +11117,21 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+main.login {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+  flex-direction: column;
+}
+main.login .panel {
+  background: #fff;
+  min-width: 300px;
+  min-height: 300px;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */
